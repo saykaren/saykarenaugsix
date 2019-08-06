@@ -30,7 +30,7 @@ const ContactMe = () => (
       >
         <i className="fa fa-phone" aria-hidden="true"></i>
         <a href="tel:+3039468405">
-          303.946.8405 ex 123
+          303.946.8405
         </a>
       </section>
       

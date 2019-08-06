@@ -33,11 +33,8 @@ const LogoState = () =>{
 
     var workingOn = currentKey[0]; // string
     var currentKeyValue = parseInt(workingOn);
-    var finalResultAdded = currentKeyValue +1; // working to move it to another number 
-
+ 
     if (greeting !== lastItem){
-      var workingOn = currentKey[0]; // string
-      var currentKeyValue = parseInt(workingOn);
       var finalResultAdded = currentKeyValue +1;
       setGreeting(workStates[finalResultAdded]);
     }else{
