@@ -33,7 +33,8 @@ const NavigationBar = () => (
         <Route path={"/AboutMe"} component={AboutMe}/>
         <Route path={"/MyWork"} component={MyWork}/>
         <Route path={'/contact'} component={ContactMe} />
-        <Route path={'/saykaren.github.io/sayKaren_Portfolio_2019/'} component={Home} />
+        <Route path={'/saykaren.github.io/saykarenaugsix_deploy/'} component={Home} />
+        <Route path={"https://saykaren.github.io/"} component={Home} />
       </div>
   </Router>      
   );
