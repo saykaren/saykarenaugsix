@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+yarn build && \
+git add --all && \
+git commit -m $0 && \
+git push origin master && \
+cp -r build/* ../deploy && \
+cd ../deploy && \
+git add --all && \
+git commit -m "publishing automatically" && \
+git push origin master && \
+cd - 
+

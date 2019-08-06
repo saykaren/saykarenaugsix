@@ -14,7 +14,6 @@ const App = () => (
     <Route exact strict path ="/saykaren.github.io/saykarenaugsix_deploy/" component={Home}/>
   </Router>
   </div>
-
   );
 
 export default App;
