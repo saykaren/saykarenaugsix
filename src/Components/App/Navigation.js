@@ -27,7 +27,7 @@ const NavigationBar = () => (
           </div>
         </nav>
       </div>    
-    
+        <Route exact strict path ="/" component={Home}/>
         <Route path={"/Home"} component={Home}/>
         <Route path={"/AboutMe"} component={AboutMe}/>
         <Route path={"/MyWork"} component={MyWork}/>
@@ -35,7 +35,7 @@ const NavigationBar = () => (
         <Route path={'/saykaren.github.io/saykarenaugsix_deploy/'} component={Home} />
         <Route exact strict path={"https://saykaren.github.io/"} component={Home} />
         <Route exact strict path={"https://saykaren.github.io/Home"} component={Home} />
-        <Route exact strict path ="/" component={Home}/>
+     
         <Route exact strict path ="/saykaren.github.io/saykarenaugsix_deploy/" component={Home}/>
 
       </Router>
