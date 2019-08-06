@@ -11,6 +11,7 @@ const App = () => (
     <Footer />
   <Router basename={'/'}>
     <Route exact strict path ="/" component={Home}/>
+    <Route exact strict path ="/saykaren.github.io/saykarenaugsix_deploy/" component={Home}/>
   </Router>
   </div>
 

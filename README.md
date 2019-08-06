@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Updating Steps
+Make changes on source then do
+yarn predeploy (rebuilding package with changes)
+CP –r build/* path
+CP –r build/* ./../deploy
+Cd ..
+$ cd deploy/
+
+Git add .
+Git commit –m “changes”
+Git push origin master
+
+
 ## Available Scripts
 
 In the project directory, you can run:
