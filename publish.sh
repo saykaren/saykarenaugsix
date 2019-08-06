@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 yarn build && \
 git add --all && \
-git commit -m $0 && \
+git commit -m "$1" && \
 git push origin master && \
 cp -r build/* ../deploy && \
 cd ../deploy && \
