@@ -1,6 +1,8 @@
 {
+  "homepage": "http://saykaren.github.io/saykarenaugsix",
   "name": "saykarenaugsix",
   "version": "0.1.0",
+  "license": "Karen",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
@@ -10,6 +12,8 @@
     "react-useinterval": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build -b master",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
