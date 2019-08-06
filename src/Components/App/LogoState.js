@@ -52,7 +52,6 @@ const LogoState = () =>{
     <div>
       <div 
         value={greeting}
-        // onClick={handleChange}
       >
         {greeting}
       </div>
