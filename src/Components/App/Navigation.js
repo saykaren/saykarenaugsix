@@ -35,9 +35,7 @@ const NavigationBar = () => (
         <Route path={'/saykaren.github.io/saykarenaugsix_deploy/'} component={Home} />
         <Route exact strict path={"https://saykaren.github.io/"} component={Home} />
         <Route exact strict path={"https://saykaren.github.io/Home"} component={Home} />
-     
         <Route exact strict path ="/saykaren.github.io/saykarenaugsix_deploy/" component={Home}/>
-
       </Router>
   );
 

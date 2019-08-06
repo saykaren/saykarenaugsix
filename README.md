@@ -12,6 +12,10 @@ Git add .
 Git commit –m “changes”
 Git push origin master
 
+or I setup shell put the following in command line
+./publish.sh "details of change"
+
+
 
 ## Available Scripts
 

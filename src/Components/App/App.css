@@ -110,6 +110,12 @@ body, html {
   text-align: center;
 }
 
+#heroText2 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 9rem;
+}
+
 #heroTitle{
   font-size: 0.5em;
   margin-top: -1rem;

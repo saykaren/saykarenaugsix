@@ -9,16 +9,7 @@ const FrontPage= () => (
       <main
         className="heroSection"
         id="heroImage"
-      >        
-        <h1
-        id="heroText"
-        >
-          Karen Garcia
-          <section id="heroTitle">
-            Front End Developer
-          </section>
-        </h1> 
-
+      >       
         <section id="stateLogo">
         <img src={sayKarenLogoWhite}
               className="footerDetails"
