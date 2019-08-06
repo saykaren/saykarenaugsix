@@ -4,15 +4,15 @@ import NavigationBar from './Navigation';
 import Footer from './Footer';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './HomeSection';
+// import FrontPage from './FrontPage';
+import MyWork from './MyWork';
+import ContactMe from './ContactMe';
+import AboutMe from './AboutMe';
 
 const App = () => (
   <div>
     <NavigationBar />
     <Footer />
-  <Router basename={'/'}>
-    <Route exact strict path ="/" component={Home}/>
-    <Route exact strict path ="/saykaren.github.io/saykarenaugsix_deploy/" component={Home}/>
-  </Router>
   </div>
   );
 
