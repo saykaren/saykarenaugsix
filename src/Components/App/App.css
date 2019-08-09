@@ -72,12 +72,33 @@ body, html {
 
 .fab{
   padding: 1rem;
+  color: white;
 }
 
 #freeCodeCamp{
   text-decoration: none;
   color: black;
+}
 
+.front, .back{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.front{
+  background:#D1D1D1;
+  position: absolute;
+  width: 100%;
+}
+
+.back{
+  background: #D1D1D1;
+  transform: rotateY(180deg);
+  flex-direction: column;
+  width: 100%;
 }
 
 #footer{
@@ -96,24 +117,17 @@ body, html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #D1D1D1;
   margin-top: 1rem;
 }
 
 .heroSection {
   color: white;
-  height: 50%;
-}
-
-#heroText {
-  font-size: 4rem;
-  text-align: center;
+  height: 37%;
 }
 
 #heroText2 {
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
-  margin-bottom: 9rem;
 }
 
 #heroTitle{
@@ -125,7 +139,6 @@ body, html {
 #iconSection{
   display: flex;
   justify-content: center;
-
 }
 
 .icons{
@@ -141,6 +154,12 @@ body, html {
 #requestState{
   font-size: 2rem;
   align-self: center;
+}
+
+#myWork {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .navBar {
@@ -191,35 +210,6 @@ body, html {
   border-radius: 25px;
 }
 
-.workPortfolio{
-  border: .2rem solid white;
-  width: 20rem;
-  margin: 1rem;
-  background-color: #D1D1D1;
-  padding: .2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.workImg{
-  width: 20rem;
-}
-
-#workContainer{
-  display: flex;
-  flex-direction: row;
-  color: black;
-  flex-wrap: wrap;
-  justify-content: space-around;  
-}
-
-#myWork {
-  color: white;
-  font-size: 2.5rem;
-  text-align: center;
-}
-
 #sayKarenLogo {
   height: 3.2rem;
 }
@@ -241,7 +231,6 @@ body, html {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: 7rem;
 }
 
 .services, .faq {
@@ -277,7 +266,41 @@ body, html {
   flex-direction: column;
 }
 
+.workImg{
+  width: 100%;
+}
+
+#workContainer{
+  display: flex;
+  flex-direction: row;
+  color: black;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
+
 .workDetails{
   display: flex;
   flex-direction: column;
 }
+
+.workPortfolio{
+  border: .2rem solid white;
+  width: 30rem;
+  height: 20rem;
+  margin: 1rem;
+  background-color: #D1D1D1;
+  padding: .2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-duration: 2s;
+  transform-style: preserve-3d;
+}
+
+.workPortfolio:hover {
+  transform:rotateY(180deg);
+  transition-duration: 2s;
+}
+
+
+
