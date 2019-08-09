@@ -2,7 +2,7 @@
 yarn build && \
 git add --all && \
 git commit -m "$1" && \
-git push origin master && \
+git push origin master 
 cp -r build/* ../deploy && \
 cd ../deploy && \
 git add --all && \
