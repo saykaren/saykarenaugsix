@@ -6,6 +6,7 @@ import NumberGif from '../../assets/Number_Guesser.gif'
 import Bomdigity from '../../assets/Bomdigity.gif'
 import flashcard from '../../assets/flashcard-starter.gif'
 import check from '../../assets/checkwritting.png'
+import GitFitter from '../../assets/GitFitter.gif'
 
 
 const MyWork = () => (
@@ -14,7 +15,36 @@ const MyWork = () => (
         My Work
       </h1>
         <main id="workContainer">
-      
+        <section className="workPortfolio">
+            <section className="front">
+              <img 
+                src={GitFitter}
+                className="workImg"
+                alt="GitFitter"
+              />
+            </section>
+            <section className="back">
+              <span className="strong">
+              Project Name:
+              </span>
+              <span className="workDetails">
+              GitFitter
+              </span>
+              <span className="strong">
+                Demonstrates: 
+              </span>
+              <span className="workDetails">
+                SASS / React / Hooks 
+              </span>
+              <a href="https://github.com/saykaren/GetFitter" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Code 
+              </a>
+              <a href="https://saykaren.github.io/GitFitter_DeployedSite/" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Live Site
+              </a>
+            </section>
+          </section>
+
           <section className="workPortfolio">
             <section className="front">
               <img 
@@ -189,7 +219,7 @@ const MyWork = () => (
           {/* <section className="workPortfolio">
             <section className="front">
               <img 
-                src="https://images.unsplash.com/photo-1437913135140-944c1ee62782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                src=""
                 className="workImg"
                 alt=""
               />
@@ -216,7 +246,6 @@ const MyWork = () => (
             </section>
           </section> */}
 
-          
           
         </main>
     </div>
