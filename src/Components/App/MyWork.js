@@ -65,7 +65,7 @@ const MyWork = () => (
                 Demonstrates: 
               </span>
               <span className="workDetails">
-                Hooks / React / SASS 
+                React / Hooks / SASS 
               </span>
               <a href="https://github.com/saykaren/FinancialAnalysis" target="_blank" rel="noopener noreferrer" className="workDetails">
                 Code 
