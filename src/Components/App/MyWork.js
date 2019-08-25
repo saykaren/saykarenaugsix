@@ -7,6 +7,7 @@ import Bomdigity from '../../assets/Bomdigity.gif'
 import flashcard from '../../assets/flashcard-starter.gif'
 import check from '../../assets/checkwritting.png'
 import GitFitter from '../../assets/GitFitter.gif'
+import businessFinancial from '../../assets/businessFinancial.png'
 
 
 const MyWork = () => (
@@ -40,6 +41,36 @@ const MyWork = () => (
                 Code 
               </a>
               <a href="https://saykaren.github.io/GitFitter_DeployedSite/" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Live Site
+              </a>
+            </section>
+          </section>
+
+          <section className="workPortfolio">
+            <section className="front">
+              <img 
+                src={businessFinancial}
+                className="workImg"
+                alt="Business Financial Analysis"
+              />
+            </section>
+            <section className="back">
+              <span className="strong">
+              Project Name:
+              </span>
+              <span className="workDetails">
+              Business Financial Analysis
+              </span>
+              <span className="strong">
+                Demonstrates: 
+              </span>
+              <span className="workDetails">
+                Hooks / React / SASS 
+              </span>
+              <a href="https://github.com/saykaren/FinancialAnalysis" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Code 
+              </a>
+              <a href="https://saykaren.github.io/BusinessFinancialAnalysis/" target="_blank" rel="noopener noreferrer" className="workDetails">
                 Live Site
               </a>
             </section>
