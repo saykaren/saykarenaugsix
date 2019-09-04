@@ -13,7 +13,8 @@ import businessFinancial from '../../assets/businessFinancial.png'
 const MyWork = () => (
     <div>
       <h1 id="myWork">
-        My Work
+        Work Examples
+        
       </h1>
         <main id="workContainer">
         <section className="workPortfolio">
