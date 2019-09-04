@@ -189,11 +189,6 @@ body, html {
   display: block;
 }
 
-.subNavLink:hover{
-  display: block;
-  opacity: 0.5;
-}
-
 .navLink {
   text-align: center;
   border: 1px solid white;
@@ -203,6 +198,12 @@ body, html {
   width: 15rem;
   height: 2rem;
 }
+
+.subNavLink:hover{
+  display: block;
+  opacity: 0.5;
+}
+
 
 .subNavLink {
   text-align: center;
