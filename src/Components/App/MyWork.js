@@ -8,6 +8,7 @@ import flashcard from '../../assets/flashcard-starter.gif'
 import check from '../../assets/checkwritting.png'
 import GitFitter from '../../assets/GitFitter.gif'
 import businessFinancial from '../../assets/businessFinancial.png'
+import ColorsRedux from '../../assets/ColorsRedux_10.2019.gif'
 
 
 const MyWork = () => (
@@ -17,6 +18,35 @@ const MyWork = () => (
         
       </h1>
         <main id="workContainer">
+          <section className="workPortfolio">
+            <section className="front">
+              <img 
+                src={ColorsRedux}
+                className="workImg"
+                alt="ColorsRedux"
+              />
+            </section>
+            <section className="back">
+              <span className="strong">
+              Project Name:
+              </span>
+              <span className="workDetails">
+              ColorsRedux
+              </span>
+              <span className="strong">
+                Demonstrates: 
+              </span>
+              <span className="workDetails">
+                Redux (useSelector() and useDispatch()) <br></br> React / Hooks / JavaScript / CSS
+              </span>
+              <a href="https://github.com/saykaren/ColorsRedux" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Code 
+              </a>
+              <a href="https://saykaren.github.io/ColorsReduxDeploy/" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Live Site
+              </a>
+            </section>
+          </section> 
         <section className="workPortfolio">
             <section className="front">
               <img 
@@ -77,7 +107,7 @@ const MyWork = () => (
             </section>
           </section>
 
-          <section className="workPortfolio">
+          {/* <section className="workPortfolio">
             <section className="front">
               <img 
                 src={ReactWebsite}
@@ -105,7 +135,7 @@ const MyWork = () => (
                 Live Site
               </a>
             </section>
-          </section>
+          </section> */}
 
           <section className="workPortfolio">
             <section className="front">
