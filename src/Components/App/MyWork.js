@@ -9,13 +9,13 @@ import check from '../../assets/checkwritting.png'
 import GitFitter from '../../assets/GitFitter.gif'
 import businessFinancial from '../../assets/businessFinancial.png'
 import ColorsRedux from '../../assets/ColorsRedux_10.2019.gif'
+import FIRE from '../../assets/FIRE.png'
 
 
 const MyWork = () => (
     <div>
       <h1 id="myWork">
-        Work Examples
-        
+        Work Examples        
       </h1>
         <main id="workContainer">
           <section className="workPortfolio">
@@ -76,37 +76,6 @@ const MyWork = () => (
               </a>
             </section>
           </section>
-
-          <section className="workPortfolio">
-            <section className="front">
-              <img 
-                src={businessFinancial}
-                className="workImg"
-                alt="Business Financial Analysis"
-              />
-            </section>
-            <section className="back">
-              <span className="strong">
-              Project Name:
-              </span>
-              <span className="workDetails">
-              Business Financial Analysis
-              </span>
-              <span className="strong">
-                Demonstrates: 
-              </span>
-              <span className="workDetails">
-                React / Hooks / SASS 
-              </span>
-              <a href="https://github.com/saykaren/FinancialAnalysis" target="_blank" rel="noopener noreferrer" className="workDetails">
-                Code 
-              </a>
-              <a href="https://saykaren.github.io/BusinessFinancialAnalysis/" target="_blank" rel="noopener noreferrer" className="workDetails">
-                Live Site
-              </a>
-            </section>
-          </section>
-
           {/* <section className="workPortfolio">
             <section className="front">
               <img 
@@ -222,6 +191,66 @@ const MyWork = () => (
               Live: Clone repo and in command line use node index.js to start game 
             </section>
           </section>
+
+
+          <section className="workPortfolio">
+            <section className="front">
+              <img 
+                src={businessFinancial}
+                className="workImg"
+                alt="Business Financial Analysis"
+              />
+            </section>
+            <section className="back">
+              <span className="strong">
+              Project Name:
+              </span>
+              <span className="workDetails">
+              Business Financial Analysis
+              </span>
+              <span className="strong">
+                Demonstrates: 
+              </span>
+              <span className="workDetails">
+                React / Hooks / SASS 
+              </span>
+              <a href="https://github.com/saykaren/FinancialAnalysis" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Code 
+              </a>
+              <a href="https://saykaren.github.io/BusinessFinancialAnalysis/" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Live Site
+              </a>
+            </section>
+          </section>
+          <section className="workPortfolio">
+            <section className="front">
+              <img 
+                src={FIRE}
+                className="workImg"
+                alt="FIRE"
+              />
+            </section>
+            <section className="back">   
+              <span className="strong">
+              Project Name:
+              </span>
+              <span className="workDetails">
+              FIRE Movement 
+              </span>
+              <span className="strong">
+                Demonstrates: 
+              </span>
+              <span className="workDetails">
+                React skills and ES6
+              </span>
+              <a href="https://github.com/saykaren/FIRE" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Code 
+              </a>
+              <a href="https://saykaren.github.io/FIREmovement/" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Live Site
+              </a>
+            </section>
+          </section> 
 
           <section className="workPortfolio">
             <section className="front">
