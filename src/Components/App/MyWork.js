@@ -10,6 +10,7 @@ import GitFitter from '../../assets/GitFitter.gif'
 import businessFinancial from '../../assets/businessFinancial.png'
 import ColorsRedux from '../../assets/ColorsRedux_10.2019.gif'
 import FIRE from '../../assets/FIRE.png'
+import AddressBook from '../../assets/AddressBookPic.png';
 
 
 const MyWork = () => (
@@ -18,6 +19,35 @@ const MyWork = () => (
         Work Examples        
       </h1>
         <main id="workContainer">
+          <section className="workPortfolio">
+            <section className="front">
+              <img
+                  src={AddressBook}
+                  className="workImg"
+                  alt="AddressBook"
+              />
+            </section>
+            <section className="back">
+              <span className="strong">
+              Project Name:
+              </span>
+              <span className="workDetails">
+              AddressBook
+              </span>
+              <span className="strong">
+                Demonstrates:
+              </span>
+              <span className="workDetails">
+                React, TypeScript, Jest, Enzyme, <br></br> SCSS, Fetch API and Modal
+              </span>
+              <a href="https://github.com/saykaren/AddressBook" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Code
+              </a>
+              <a href="https://saykaren.github.io/AddressBook" target="_blank" rel="noopener noreferrer" className="workDetails">
+                Live Site
+              </a>
+            </section>
+          </section>
           <section className="workPortfolio">
             <section className="front">
               <img 
